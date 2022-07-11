@@ -1,5 +1,3 @@
-#!/bin/bash
-
 xcrun simctl shutdown all
 
 path=$(find ~/Library/Developer/Xcode/DerivedData/DemoMultipleSimulatorsSingleBuild-*/Build/Products/Debug-iphonesimulator -name "DemoMultipleSimulatorsSingleBuild.app" | head -n 1)
